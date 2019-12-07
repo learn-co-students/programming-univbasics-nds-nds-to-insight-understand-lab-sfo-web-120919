@@ -18,7 +18,12 @@ def print_first_directors_movie_titles
     new_arr << element[:title] 
     i += 1
   end
-  sentence = new_arr.join('')
-   pp sentence
-
+  idx = 0
+  while idx < new_arr.length do
+    puts new_arr[idx]
+    idx += 1
+  end
+ # pp new_arr
+ # sentence = new_arr.join('\n')
+#  pp sentence
   end
